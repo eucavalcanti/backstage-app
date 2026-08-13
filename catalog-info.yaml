@@ -1,1 +1,12 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-app
+  description: Portal IDP (instância local do Backstage)
+  annotations:
+    github.com/project-slug: org/backstage-app
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/platform-team
+  system: idp-lab
